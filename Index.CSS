@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+.kd{
+        width: auto;
+        height: 100vh;
+        position: relative;
+        padding: 0.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(https://media.istockphoto.com/id/1133719616/fr/photo/ciel-de-coucher-de-soleil-avec-des-nuages-de-lumi%C3%A8re-jaunes-violets-d%C3%A9grad%C3%A9-de-ciel-bleu.jpg?s=170667a&w=0&k=20&c=gsdwqHELRc_Dl0ajzeaRODWpRLQqORblpK4Vf6mvWE4=)
+}
+p{
+        font-weight: 300;
+        color: black;
+}
+header{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        padding: 30px;
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.5s;
+        
+}
+.Logo{
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        text-decoration: none;
+}
+.Logo span{
+        color: orange;
+}
+.new{
+        display: flex;
+        position: relative;
+        color: white; 
+        padding: 5px;
+        text-align: right;
+}  
+.new li{
+        list-style: none;
+        display: inline-block;
+}
+.new a {
+        margin-left: 30px;
+        text-decoration: none;
+        font-weight: 700;
+        color: white;
+}
+header .new li a:hover{
+        color: blueviolet;
+        border-bottom: 3px solid blueviolet;
+}  
+    
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.video{
+    position: relative;
+    height: 70%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}

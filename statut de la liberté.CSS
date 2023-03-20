@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+}
+
+p{
+    font-weight: 300;
+    color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 30px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: black;
+    
+}
+.Logo{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Logo span{
+    color: orange;
+}
+.new{
+    display: flex;
+    position: relative;
+    color: white; 
+    padding: 5px;
+    text-align: right;
+}  
+
+
+
+.new li{
+    list-style: none;
+    display: inline-block;
+}
+.new a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+header .new li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+   background-image: url();
+}
+.pied-de-page{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+
+}
+.newi{
+    display: flex;
+    position: relative;
+    color: white; 
+    padding: 5px;
+    text-align: right;
+   
+    
+}  
+.newi li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.newi a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    
+}
+.newi li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.intro .cor{
+    max-width: 70%;
+    text-align: center;
+}
+.intro .cor h1{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.cor p:nth-child(2){
+    color: black;
+    font-size: 1.5em;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    min-height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/474x/95/5e/09/955e095868dd55233fbd0f50ec581478.jpg);
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 30px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: black;
+   
+
+}
+.Logo{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Logo span{
+    color: orange;
+}
+.new{
+    display: flex;
+    position: relative;
+    color: white; 
+    padding: 5px;
+    text-align: right;
+}  
+
+
+
+.new li{
+    list-style: none;
+    display: inline-block;
+}
+.new a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    color: white;
+}
+header .new li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.pXYgyGap-n6WSXG25KoO9AHaD5?w=332&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+   }
+.intro .cor{
+    max-width: 70%;
+    text-align: center;
+}
+.intro .cor h1{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.cor p:nth-child(2){
+    color: black;
+    font-size: 1.5em;
+}
+.image1{
+    width: 50%;   
+    position: relative;
+    top:auto ;
+    right: auto;
+    
+}
+.image2{
+    width: 50%;
+   
+}
+.image3{
+    width: 50%;
+    
+}
+.grand i {
+    text-align: center;
+    font-size: medium;
+}
+.pied-de-page{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+
+}
+.newi{
+    display: flex;
+    position: relative;
+    color: white; 
+    padding: 5px;
+    text-align: right;
+   
+    
+}  
+
+.newi li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.newi a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    
+}
+.newi li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.last{
+   text-align: right;
+}
+

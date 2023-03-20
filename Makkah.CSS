@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 30px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: black;
+}
+.Logo{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Logo span{
+    color: orange;
+}
+.new{
+    display: flex;
+    position: relative;
+    color: white; 
+    padding: 5px;
+    text-align: right;
+}  
+
+.new li{
+    list-style: none;
+    display: inline-block;
+}
+.new a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+header .new li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    min-height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url(https://i.pinimg.com/474x/5f/d4/82/5fd482cadb8ffc9fb6fb94238b2710df.jpg) ;
+
+}
+.CLASS{
+    color: burlywood;
+    font-size: 1.5em;
+}
+.intro .cor{
+    max-width: 100%;
+    text-align: center;
+}
+.intro .cor h1{
+    font-size: 3.5em;
+    text-transform: capitalize;
+    color: burlywood;
+    
+}
+.image1{
+    width: 80%; 
+    height: 50%;  
+    
+}
+.image2{
+    width: 50%;
+    height: 50%;
+   
+}
+.image3{
+    width: 50%;
+    height: 50%;
+    
+}
+.image4{
+    width: 100%;
+    height: 50%;
+}
+.pied-de-page{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+
+}
+.newi li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.newi a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    
+}
+.newi li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+
+
+
+
